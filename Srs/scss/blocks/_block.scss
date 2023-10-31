@@ -64,6 +64,68 @@
         align-items: flex-start;
         gap: 8px;
         align-self: stretch;
-        }
+        border-radius: 8px;
+        background: #FFF;
+    }
+    &__text_head{
+        color: #2C3640;
+        font-family: Onest;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 133.333% */
+    }
+    &__text_phead{
+        color: #2C3640;
+        font-family: Onest;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 137.5% */
+    }
+    &__text_konf{
+        color: #959B9F;
+        font-family: Onest;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    &__count{
+        align-self: stretch;
+        color: #2C3640;
+        text-align: right;
+        font-family: Onest;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 133.333% */
+    }
+    &__txt{
+        color: #2C3640;
+        font-family: Onest;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 125% */
+    }
+    &__txt2{
+        align-self: stretch;
+        color: #2C3640;
+        font-family: Onest;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    &__pheadstr{
+        align-self: stretch;
+        color: #2C3640;
+        font-family: Onest;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 137.5% */
+    }
 
 }
